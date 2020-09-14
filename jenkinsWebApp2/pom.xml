@@ -36,7 +36,7 @@
   </dependencies>
 
   <build>
-    <finalName>JenkinsWebApp</finalName>
+    <finalName>jenkinsWebApp2</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
       	<plugin>
@@ -46,7 +46,7 @@
     		<configuration>
         		<scanIntervalSeconds>10</scanIntervalSeconds>
         		<webApp>
-            		<contextPath>/JenkinsWebApp2</contextPath>
+            		<contextPath>/jenkinsWebApp2</contextPath>
         		</webApp>
         		<httpConnector>
             		<port>9090</port>
